@@ -1,0 +1,1 @@
+gfortran -fopenmp MINOS_modules/constants.f90 MINOS_modules/*.f* packages/*.f* packages/newuoa_mod/*.f* probability_of_transition_in_matter/*.f* Probability/average_probability_per_bin.f* Probability/MINOS_one_layer.f* Probability/minos_prop_one_slab.f* MINOS_subroutines/*.f* minos_main.f90
